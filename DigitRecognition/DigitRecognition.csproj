@@ -47,15 +47,44 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadMe.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Data\template.dat" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TestResources\t-0.jpg" />
     <Content Include="TestResources\t-1.bmp" />
+    <Content Include="TestResources\t-10.png" />
+    <Content Include="TestResources\t-11.jpg" />
+    <Content Include="TestResources\t-12.jpg" />
+    <Content Include="TestResources\t-13.jpg" />
+    <Content Include="TestResources\t-14.jpg" />
+    <Content Include="TestResources\t-15.jpg" />
+    <Content Include="TestResources\t-16.jpg" />
+    <Content Include="TestResources\t-17.jpg" />
+    <Content Include="TestResources\t-18.jpg" />
     <Content Include="TestResources\t-2.bmp" />
     <Content Include="TestResources\t-3.bmp" />
+    <Content Include="TestResources\t-4.bmp" />
+    <Content Include="TestResources\t-5.bmp" />
+    <Content Include="TestResources\t-6.bmp" />
+    <Content Include="TestResources\t-7.bmp" />
+    <Content Include="TestResources\t-8.bmp" />
+    <Content Include="TestResources\t-9.bmp" />
+    <Content Include="Train\mnist_train0.jpg" />
+    <Content Include="Train\mnist_train1.jpg" />
+    <Content Include="Train\mnist_train2.jpg" />
+    <Content Include="Train\mnist_train3.jpg" />
+    <Content Include="Train\mnist_train4.jpg" />
+    <Content Include="Train\mnist_train5.jpg" />
+    <Content Include="Train\mnist_train6.jpg" />
+    <Content Include="Train\mnist_train7.jpg" />
+    <Content Include="Train\mnist_train8.jpg" />
+    <Content Include="Train\mnist_train9.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
